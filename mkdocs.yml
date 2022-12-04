@@ -44,12 +44,29 @@ theme:
         - search.suggest
         - search.highlight
 
+extra:
+    abstract: This is a report about a topic
+
 plugins:
     - search:
-        lang: fr        
-
-
-
-
-
+        lang: fr
+    # bottom, last
+    - print-site:
+          add_to_navigation: true
+          print_page_title: 'Print Site'
+          add_print_site_banner: false
+          # Table of contents
+          add_table_of_contents: true
+          toc_title: 'Table des matières'
+          toc_depth: 3
+          # Content-related
+          add_full_urls: false
+          enumerate_headings: true
+          enumerate_figures: true
+          add_cover_page: true
+          cover_page_template: ""
+          path_to_pdf: ""
+          include_css: true
+          enabled: true
+          exclude:
 

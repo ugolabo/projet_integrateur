@@ -17,3 +17,7 @@
     - Lists
     - Tooltips
 - medias: Docket, Slack, Instagram, medium
+
+## PDF
+
+- https://timvink.github.io/mkdocs-print-site-plugin/index.html
