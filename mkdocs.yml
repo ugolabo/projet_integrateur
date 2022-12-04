@@ -1,0 +1,55 @@
+site_name: Projet intégrateur
+#site_url: https://example.com/
+#repo_name: 'projet_integrateur'
+#repo_url: 'https://gitlab.com/ugolab/iap.git'
+site_description: Projet intégrateur
+site_author: Ugo
+copyright: Copyright &copy; 2022-23 prénom nom
+
+nav:
+    - Home: index.md
+    - Plan: plan.md
+    - Material: test_material.md
+
+theme: 
+    name: material
+    palette:
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+    #icon:
+        #icon:
+            #repo: fontawesome/brands/gitlab
+    font:
+        text: Roboto
+        code: Roboto Mono
+    language: fr
+    logo: assets/icon-192x192.png
+    #favicon: 'img/favicon.ico'
+    features:
+        - navigation.sections
+        - navigation.expand
+        - navigation.top
+        - toc.integrate 
+        - toc.follow
+        - search.suggest
+        - search.highlight
+
+plugins:
+    - search:
+        lang: fr        
+
+
+
+
+
+
